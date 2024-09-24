@@ -1,0 +1,160 @@
+body{
+    font-family: sans-serif;
+    background-color: none;
+    background-image: url("./img/handdrawnBG.jpg");
+    height: auto;
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+.title{
+    border-radius: 15px;
+    padding: 1%;
+    background-color: #ebd7b4;
+    margin-bottom:1%;
+}
+.title > div {
+    border-radius: 10px;
+    padding: .3%;
+    background-color: white;
+    text-align:center;
+    color: #9ab8d6;
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bolder;
+}
+/* all except title and connect me bar at bottom will be in main content*/
+.mainContent{
+    display: flex;
+    justify-content: space-evenly;
+    height: 90%;
+    align-items:stretch;
+    column-fill: auto;
+    color: #9ab8d6;
+}
+.box { border: 10px solid #a4bed6;
+    display: flex;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;}
+
+.mainContent > div {
+    margin-right: 1%;
+    flex-direction: column;
+    margin-bottom: 1%;
+}
+
+/*Contains name, student status, gsu link, photo*/
+.aboutMe{
+    padding: 1%;
+    flex: 1 0 15%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: darkcyan;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.aboutMe > i {
+    color:black;
+}
+.aboutMe > div {
+    flex-direction: column;
+}
+.quote{
+    color: #ebd7b4;
+    font-size: x-large;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: left;
+    transition: transform 20s;
+    transition-timing-function: ease-in-out;
+}
+.quote:hover{
+    transform: scale(100)
+}
+
+.assignments{
+    flex: 1 0 22%;
+    padding: 1%;
+    display: flex;
+
+    align-items: center;
+    text-align: center;
+    
+}
+.assignments >div {
+    flex:1 0 100%;
+    display: flex;
+    margin:auto;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: white;
+    text-align:center;
+    color: #9ab8d6;
+    align-items: center;
+}
+.misc{
+    display: flex;
+    padding: 0;
+    flex: 1 0 40%;
+    flex-wrap: nowrap;
+    
+}
+.misc > div{
+    flex-direction: column;
+    flex-wrap:nowrap;
+}
+
+
+.assTable{
+    border: 2px solid #9ab8d6;
+    border-spacing:0px;
+    background-color: #9ab8d6;
+    font-family: sans-serif;
+    color:#596b7c;
+    width: 80%;
+}
+
+.assTable tr:nth-child(odd){
+    background-color: white;
+}
+
+.assTable tr:nth-child(even){
+    background-color: #ebd7b4;
+}
+.assTable thead th{
+    background-color: lightblue;
+    width: 20%;
+    font-size: large;
+}
+header{
+    list-style-type: none;
+    font-weight: bold;
+    font-size:x-large;
+    text-decoration: underline wavy 2px;
+    margin-bottom:5px;
+}
+
+.findme{
+    display: flex;
+    background-color: #e1e1e1;
+    padding:1%;
+    border-radius: 15px;
+    border: solid 10px #cdd1c6;
+    color:black;
+    justify-content: space-evenly;
+}
+.songList{
+    color:grey;
+    font-weight: bold;
+}
+.songList > li > i {
+    color: tan;
+    font-weight: 100;
+}
+.hobs{
+    list-style-type: none;
+}
+.hobs > li > b {
+    color:darkcyan;
+}
