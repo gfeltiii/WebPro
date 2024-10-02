@@ -1,0 +1,115 @@
+body{
+    background-image: url("./img/background.png");
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 8pt;
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-image: url("./img/bannerbackground.png");
+}
+h1{
+    font-size: 24pt;
+    text-align: center;
+    
+}
+.content{
+    margin-left: auto;
+    width: 800px;
+    border: 4px solid gray;
+    margin-right: auto;
+}
+.rating{
+    display: flex;
+    width: 550px;
+    color:white;
+    background-image: url("./img/rottenbackground.png");
+    background-repeat: repeat-x;
+    align-items: baseline;
+}
+.rating > span{
+    color:red;
+    font-size: 48pt;
+    font-weight: bold;
+}
+.rating > img {
+    float: left;
+}
+.box{
+    font-weight: bold;
+    background-color: #E1D697;
+    border: 2px solid gray;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.box >img{
+    float: left;
+    flex-wrap: wrap;
+    margin-right: 5pt;
+}
+.leftside{
+    width: 550px;
+    float:left;
+}
+    
+
+.columns > div{
+    width: 258.5px;
+    margin-left: 11px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+.columns{
+    display: flex;
+    clear: both;
+}
+.rightside{
+    width: 250;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.rightside > img{
+    width: 250px;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.w3c{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+.overview{
+    margin-top:0px;
+    background-color:#a2b964;
+    width: 230px;
+    padding:10px;
+    font-size: 8pt;
+    margin-bottom: 0px;
+}
+.overview > dt {
+    font-weight: bold;
+    margin-top: 5px;
+}
+.bottombanner {
+    background-color: #a2b964;
+    padding: 5px;
+    text-align: center;
+}
+.critic{
+    padding: 0px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.critic >img{
+    float:left;
+    flex-wrap: wrap;
+    margin-right: 5pt;
+}
+.critic > p{
+    margin-bottom: 20px;
+}
